@@ -8,7 +8,8 @@ export const GifGrid = ({ category }) => {
 
     return (
         <>
-            <h3>{ category }</h3>
+        
+            <h3 className="category-name">{ category }</h3>
             
             <div className="card-grid">
                 {

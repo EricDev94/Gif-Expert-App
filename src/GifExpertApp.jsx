@@ -1,6 +1,8 @@
 import { useState } from "react"
 import { AddCategory } from "./components/AddCategory";
 import { GifGrid } from "./components/GifGrid";
+import Logo from './img/logo.svg';
+
 
 
 export const GifExpertApp = () => {
@@ -15,7 +17,9 @@ export const GifExpertApp = () => {
     } 
 
   return (
-    <>
+    <>  
+
+        <img className="logo" src={Logo} alt="BigCo Inc. logo"/>
         {/* Titulo */}
         <h1>Buscador de Gifs</h1>
 

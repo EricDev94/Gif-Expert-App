@@ -26,6 +26,18 @@
     font-size: 3rem;
     margin-bottom: 5px;
   }
+
+  .logo{
+    margin-left: 23%;
+    margin-bottom: 9%;
+    width: 50%;
+  }
+
+  .category-name{
+    text-align: center;
+    padding: 1.5rem;
+    
+  }
   
   .card-grid {
     display: flex;
