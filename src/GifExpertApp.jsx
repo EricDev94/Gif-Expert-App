@@ -20,8 +20,6 @@ export const GifExpertApp = () => {
     <>  
 
         <img className="logo" src={Logo} alt="BigCo Inc. logo"/>
-        {/* Titulo */}
-        <h1>Buscador de Gifs</h1>
 
         {/* Input */}
         <AddCategory 
